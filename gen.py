@@ -101,7 +101,7 @@ def improve_race_line(old_line, inner_border, outer_border):
 
 # start along centerline of track
 #race_line = copy.deepcopy(center_line[:-1])  # Use this for centerline being outer bound
-race_line = copy.deepcopy(outer_border[:-1])
+race_line = copy.deepcopy(center_line[:-1])
 for i in range(LINE_ITERATIONS):
     race_line = improve_race_line(race_line, inner_border, outer_border)  # Remove "_new" for entire track width
     if i % 20 == 0: print("Iteration %d" % i, end="\r")
