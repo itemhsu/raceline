@@ -1,8 +1,7 @@
 def reward_function(params):
-    l=[*range(9,14,1),*range(90,107,1),*range(144,149,1)]
-    r=[*range(21,27,1),*range(122,127,1)]
-    
-    hi=[*range(46,66,1)]
+    l=[*range(,),*range(,),*range(,)]
+    r=[*range(,),*range(,)]
+    hi=[*range(,)]
 
     # Read input parameters
     all_wheels_on_track = params['all_wheels_on_track']
